@@ -1,0 +1,340 @@
+.App {
+  text-align: center;
+}
+
+.navbarContainer{
+  display: flex;
+  flex-wrap: wrap;
+  color: #fff;
+  /* text-align: center; */
+  justify-content: space-around;
+  height: 70px;
+  width: 100vw;
+  background-color: #2e3192;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.navbarBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbarBox p{
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* padding-left: 10px; */
+}
+.Diagnostic{
+  background-color: #222472;
+}
+
+.Nicone{
+  width: 50px;
+  height: 50px;
+  border-radius: 15%;
+}
+
+.twitter{
+  padding-left: 5px;
+  color: #fff;
+}
+.youtube{
+  padding-left: 5px;
+}
+.cartIcone{
+  width: 30px;
+  height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.Logo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 130px;
+  /* justify-content: space-around; */
+}
+.Logo div h2{
+  padding-top: 20px;
+  color: #2e3192;
+}
+
+.subLogo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding-right: 120px;
+}
+.subLogo button{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 40px;
+}
+.subLogo p{
+  margin-top: 20px;
+}
+
+
+
+
+/* ------------------  Search Bar  ------------------------*/
+
+.searchbarContainer{
+  /* color: #fefefe; */
+  background-color: #f3f3f3;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 130px;
+  padding-right: 130px;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.searchInput{
+  width: 65vw;
+  border: none;
+  /* border: 2px solid grey; */
+  border-radius: 5px;
+}
+.searchSelect{
+  border: none;
+  color: #2e3192;
+}
+/* ---------------------- Poster ------------------- */
+
+.poster{
+  width: 90vw;
+  height: 60vh;
+  padding-left: 130px;
+  padding-right: 130px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+
+/*  ---------------------     Popular Tests  ---------------*/
+.popularTestsContainer{
+  padding-left: 130px;
+  padding-right: 130px;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+.popularTestsContainer div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.view-all{
+  color: #2e3192;
+  font-weight: 500;
+}
+
+.popularTestsContainer-item{
+  width: 250px;
+  height: auto;
+  background-color: #fff;
+  border: 1px solid rgb(190, 180, 180);
+  border-radius: 2%;
+  /* display:  flex;
+  flex-wrap: wrap; */
+  /* display: grid; */
+  /* align-items: flex-start; */
+}
+
+.microscope{
+  width: 30px;
+  height: 50px;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+.popularTestsContainer-item-top{
+  /* display: flex; */
+  /* align-items:flex-start; */
+  /* justify-content:flex-start; */
+  /* flex-wrap: wrap; */
+  /* display: grid; */
+  /* vertical-align: middle; */
+  /* align-self: flex-start; */
+
+}
+
+.item-name{
+  text-decoration: none;
+  font-size: medium;
+  font-weight: 700;
+  padding-left: 5%;
+}
+.item-detail{
+  font-size: small;
+  color: #A3A3A3;
+}
+.item-tablet{
+  font-size: smaller;
+  color: #777777;
+  padding-left: 5%;
+}
+.item-icone{
+  padding-left: 5%;
+  width: 210px;
+}
+
+
+.price-container{
+  /* display: flex;
+  flex-wrap:nowrap;
+  justify-content: space-between; */
+  padding-left:auto;
+  display: flex;
+  padding-bottom: 5%;
+  /* justify-items: flex-end; */
+  justify-content: space-around;
+  /* padding-right: 5%; */
+}
+.price-container-price{
+  font-size: small;
+  padding: 5px;
+  font-weight: 700;
+}
+
+.price-container-original{
+  font-size: small;
+  color: #A3A3A3;
+  text-decoration: line-through;
+}
+
+.discount{
+  color: #39c85a;
+  font-size: small;
+  font-weight: 500;
+  padding-right: 10px;
+  /* margin-left: 10px; */
+}
+
+.boxButton{
+  border: none;
+  color: #78d8e5;
+  border: 1px solid #78d8e5;
+  background-color: #fff;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: small;
+  /* margin-left: 3%; */
+  /* font-size: medium; */
+  /* width: 10px;
+  height: 20px; */
+  /* width: min-content; */
+  /* height: min-content; */
+  /* width: 30%; */
+}
+
+
+
+
+/* -------------------------  Popular Health Packages  -------------------- */
+
+.healthPackages{
+  background-color: #f3f3f3;
+}
+
+
+
+
+
+
+
+
+
+/* ------------------ Footer ---------------------- */
+
+
+.footerContainer{
+  background-color: #2e3192;
+  color: #fff;
+}
+.Quick-links{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.links{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+}
+
+.links div{
+  display: grid;
+  /* flex-wrap: wrap; */
+  /* justify-content: space-around; */
+}
+
+.QuickLink-button{
+  border: none;
+  border-radius: 10px;
+  /* padding-bottom: 50px; */
+  margin-bottom: 20px;
+  color: #A3A3A3;
+  font-size: small;
+}
+
+.horizontal-line{
+  height: 1px;
+  width: 100vw;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: gray;
+}
+
+.copyRight{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+.footerIcon{
+  /* display: grid;
+  align-items: center; */
+  /* display: flex;
+  flex-wrap: wrap; */
+  /* width: 10px; */
+  align-content: center;
+}
+
+
+
+
+
+
+
+/*      ---------------- pageNotFount ---------- */
+
+.pageNotFount{
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
